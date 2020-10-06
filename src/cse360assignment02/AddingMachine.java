@@ -51,5 +51,7 @@ private String transactions;
      * clear method that will clear used memory
      */
     public void clear() {
+        total = 0;
+        transactions = "0";
     }
 }
