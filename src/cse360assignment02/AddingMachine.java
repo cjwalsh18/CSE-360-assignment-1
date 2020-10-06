@@ -23,6 +23,7 @@ public class AddingMachine {private int total;
      * @param value
      */
     public void add (int value) {
+        total = total + value;
 
     }
 
@@ -31,6 +32,7 @@ public class AddingMachine {private int total;
      * @param value
      */
     public void subtract (int value) {
+        total = total - value;
     }
 
     /**
