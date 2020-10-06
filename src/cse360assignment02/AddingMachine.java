@@ -36,7 +36,7 @@ private String transactions;
      */
     public void subtract (int value) {
         total = total - value;
-        transactions = transactions + " - " + value
+        transactions = transactions + " - " + value;
     }
 
     /**
